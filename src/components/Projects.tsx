@@ -10,7 +10,7 @@ interface Project {
 
 const projects: Project[] = [
   {
-    title: "Aesthetic E-commerce Store",
+    title: "Daily Circus E-commerce Store",
     description:
       "A fully functional e-commerce platform focused on beautiful aesthetics and user experience. Built with modern web technologies and Sanity CMS for content management.",
     technologies: ["Next.js", "React", "Sanity CMS", "Tailwind CSS", "Stripe"],
@@ -84,8 +84,8 @@ const Projects = () => {
             Featured <span className="gradient-text">Projects</span>
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            A collection of projects I've built, from e-commerce platforms to real-time
-            collaborative apps and machine learning applications.
+            A collection of projects I've built, from e-commerce platforms to
+            real-time collaborative apps and machine learning applications.
           </p>
         </div>
 
