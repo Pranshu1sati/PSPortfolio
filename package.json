@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://pranshu1sati.github.io/PSPortfolio/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
