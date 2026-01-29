@@ -82,7 +82,10 @@ const Hero = () => {
               {/* Gradient glow behind avatar */}
               <div className="absolute inset-0 gradient-primary rounded-full blur-2xl opacity-30 scale-110" />
               <Avatar className="h-48 w-48 sm:h-56 sm:w-56 lg:h-64 lg:w-64 border-2 border-border relative glow">
-                <AvatarImage src="/favicon.svg" alt="Pranshu Sati" />
+                <AvatarImage
+                  src={`${import.meta.env.BASE_URL}favicon.svg`}
+                  alt="Pranshu Sati"
+                />
                 <AvatarFallback className="bg-secondary text-4xl font-bold gradient-text">
                   PS
                 </AvatarFallback>
